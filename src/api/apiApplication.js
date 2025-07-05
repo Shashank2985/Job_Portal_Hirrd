@@ -1,3 +1,5 @@
+import supabaseClient, { supabaseUrl } from "@/utils/supabase";
+
 export async function updateApplicationStatus(token, { job_id }, status) {
     const supabase = await supabaseClient(token);
     const { data, error } = await supabase
