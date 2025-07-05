@@ -64,14 +64,14 @@ const JobCard = ({
                 {loadingDeleteJob && (
                     <BarLoader className="mt-4" width={"100%"} color="#36d7b7" />
                 )}
-                <CardHeader className="flex">
-                    <CardTitle className="flex justify-between font-bold">
+                <CardHeader className="flex justify-around">
+                    <CardTitle className="flex font-bold">
                         {job.title}
                         {isMyJob && (
                             <Trash2Icon
                                 fill="red"
                                 size={18}
-                                className="text-red-300 cursor-pointer"
+                                className="text-red-300 cursor-pointer ml-10"
                                 onClick={handleDeleteJob}
                             />
                         )}
