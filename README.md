@@ -53,14 +53,17 @@ A full-stack job portal web application where users can browse job listings, sav
    cd Job_Portal_Hirrd
 
 2. Install dependencies:
-     npm install
+   ```bash
+   npm install
    
 3. Create a .env file with:
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-CLERK_PUBLISHABLE_KEY=your_clerk_key
+   ```bash
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+   CLERK_PUBLISHABLE_KEY=your_clerk_key
 
 4. Run the project:
+   ```bash
     npm run dev
 
    
